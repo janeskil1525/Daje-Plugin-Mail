@@ -1,27 +1,27 @@
-package Daje::Database::View::vMailSettingsList;
-use Mojo::Base 'Daje::Database::View::Super::vMailSettingsList', -base, -async_await, -signatures;
+package Daje::Database::View::vMailFallbackSettingsList;
+use Mojo::Base 'Daje::Database::View::Super::vMailFallbackSettingsList', -base, -async_await, -signatures;
 use v5.42;
 
 # NAME
 # ====
 #
-# Daje::Database::View::vMailSettingsList - View class
+# Daje::Database::View::vMailFallbackSettingsList - View class
 #
 # SYNOPSIS
 # ========
 #
-#       use Daje::Database::View::vMailSettingsList;
+#       use Daje::Database::View::vMailFallbackSettingsList;
 #
-#       my $class = Daje::Database::View::vMailSettingsList->new(db => $db);
+#       my $class = Daje::Database::View::vMailFallbackSettingsList->new(db => $db);
 #
 # DESCRIPTION
 # ===========
 #
-# Daje::Database::View::vMailSettingsList is the List View
+# Daje::Database::View::vMailFallbackSettingsList is the List View
 #
 # class that's only generated once. It inherits all
 #
-# methods from Daje::Database::View::Super::vMailSettingsList
+# methods from Daje::Database::View::Super::vMailFallbackSettingsList
 #
 # This class is meant for non standard methods.
 #
